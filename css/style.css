@@ -255,6 +255,16 @@ header{
     cursor: pointer;
 }
 
+.bt_w{
+    width: 100px;
+    height: 50px;
+    background-color: #128C7E;
+    color: #ffffff;
+    border: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* Rodape */
 *,*:before,*:after{
     box-sizing: border-box;
