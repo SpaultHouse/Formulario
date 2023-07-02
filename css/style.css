@@ -387,6 +387,16 @@ footer ul{
 .formul-title::before{
     display: block;
 }
+.formul-title2{
+    font-size: 3rem;
+    color: #d11515;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+}
+.formul-title2::before{
+    display: block;
+}
 .socils{
     font-size: 3rem;
     color: #fff;
