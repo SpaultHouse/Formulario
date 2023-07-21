@@ -258,7 +258,7 @@ header{
 .bt_w{
     width: 100px;
     height: 50px;
-    background-color: #075E54;
+    background-color: #43A047;
     color: #ffffff;
     border: #ffffff;
     border-radius: 5px;
@@ -378,24 +378,16 @@ footer ul{
 }
 .formul-title,
 .obrig-title{
-    font-size: 3rem;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
     color: #fff;
-    margin-bottom: 2rem;
-    text-align: center;
-    line-height: 1.2;
 }
 .formul-title::before{
     display: block;
 }
 .formul-title2{
-    font-size: 3rem;
     color: #d31414;
-    margin-bottom: 2rem;
-    text-align: center;
-    line-height: 1.2;
-}
-.formul-title2::before{
-    display: block;
 }
 .socils{
     font-size: 3rem;
@@ -404,16 +396,8 @@ footer ul{
     text-align: center;
     line-height: 1.2;
 }
-.socils::before{
-    content: "🌐";
-    display: block;
-}
 .obrig-container{
     background-color: #0d0e0f;
-}
-.obrig-title::before{
-    content: "💙";
-    display: block;
 }
 .form{
     width: 100%;
