@@ -20,6 +20,10 @@ img{
 body{
     color: var(--text-color);
 }
+.codform{
+    color: #0d0e0f;
+    font-size: 1px;
+}
 .container{
     max-width: 1068px;
     margin: auto;
