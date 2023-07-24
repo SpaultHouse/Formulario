@@ -25,6 +25,17 @@ body{
     margin: auto;
     width: 100%;
 }
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }  
+
 .rodape{
     box-sizing: border-box;
     bottom: 0px;
