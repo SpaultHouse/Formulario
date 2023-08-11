@@ -41,16 +41,44 @@
     <section class="formul">
         <h1>ㅤ</h1>
         <h1>ㅤ</h1>
+        <img src="https://i.ibb.co/sqgq6J6/Whats-App-Image-2023-06-24-at-6-11-00-PM.png" alt="Imagem">
         <h1 class="formul-title">Finalize o Pedido</h1>
         <form action="https://formsubmit.co/spaulthouse@gmail.com" method="POST" class="form">
         <label for="Nome">Nome</label>
         <input type="text" name="Nome Cod 100545" id="Nome" placeholder="Nome Completo" required>
         <label for="WhatsApp">Whatsapp</label>
         <input type="WhatsApp" name="WhatsApp" id="WhatsApp" placeholder="Adicione DDD" required>
+        <div class="radio-group">
+            <label for="Tamanho">Tamanho</label>
+            <label for="P">P</label>
+            <input type="radio" id="P" name="Tamanho" value="P"/>
+            <label for="M">M</label>
+            <input type="radio" id="M" name="Tamanho" value="M"/>
+            <label for="G">G</label>
+            <input type="radio" id="G" name="Tamanho" value="G"/>
+            <label for="GG">GG</label>
+            <input type="radio" id="GG" name="Tamanho" value="GG"/>
+        </div>
+        <h2></h2>
+        <div class="radio-group">
+            <label for="Personalizada">Personalizada</label>
+            <label for="SIM">SIM</label>
+            <input type="radio" id="SIM" name="Personalizada" value="SIM"/>
+            <label for="NAO">NÃO</label>
+            <input type="radio" id="NAO" name="Personalizada" value="NAO"/>
+        </div>
         <label for="Endereço de Entrega">Endereço de Entrega</label>
         <input type="Endereço de Entrega" name="Endereço de Entrega" id="Endereço de Entrega" placeholder="Bairro, Rua e Número" required>
         <label for="Cep de Entrega">Cep de Entrega</label>
         <input type="Cep de Entrega" name="Cep de Entrega" id="Cep de Entrega" placeholder="Adicione apenas Números" required>
+        <H2 class="formadep">Forma de</H2>
+        <div class="radio-group">
+            <label for="Forma_de_Pagamento">Pagamento</label>
+            <label for="PIX">PIX</label>
+            <input type="radio" id="PIX" name="Forma_de_Pagamento" value="PIX"/>
+            <label for="CARTAO">CARTÃO</label>
+            <input type="radio" id="CARTAO" name="Forma_de_Pagamento" value="CARTAO"/>
+        </div>
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="https://spaulthouse.github.io/Formulario/obrigado">
